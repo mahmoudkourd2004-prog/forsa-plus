@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/messages.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <title>Messages</title>
+  </head>
+
+  <body>
+    <div id="preloader">
+      <span class="index"></span>
+    </div>
+
+    <div class="main-content" style="display: none">
+      <header class="navbar">
+        <div class="n">
+          <div class="dots">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <a href="home.html" class="logo">Forsa Plus</a>
+        </div>
+
+        <nav class="nav-links">
+          <ul>
+            <li>
+              <a href="consulting.html"
+                ><i class="fa fa-pencil-square" aria-hidden="true"></i>
+                Consultations</a
+              >
+            </li>
+            <li>
+              <a href="my offers.html"
+                ><i class="fa fa-star" aria-hidden="true"></i> My offers</a
+              >
+            </li>
+            <li>
+              <a href="my works.html"
+                ><i class="fa fa-briefcase" aria-hidden="true"></i> My works</a
+              >
+            </li>
+            <li>
+              <a href="contact us.html"
+                ><i class="fa fa-phone" aria-hidden="true"></i> Contact us</a
+              >
+            </li>
+          </ul>
+        </nav>
+
+        <div class="btn">
+          <a href="login.html" target="_blank" class="btn-login">Login</a>
+        </div>
+
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </header>
+
+      <section class="message">
+        <div class="app">
+          <!-- sidebar أيقونات -->
+          <aside class="sidebar3">
+            <div class="s1">
+              <i class="fa-solid fa-bars"></i>
+              <i class="fa-regular fa-message"></i>
+              <i class="fa-solid fa-phone"></i>
+            </div>
+            <div class="s2">
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-solid fa-gear"></i>
+              <i class="fa-regular fa-user"></i>
+            </div>
+          </aside>
+
+          <!-- messages panel -->
+          <section class="messages-panel">
+            <div class="messages-header">
+              Messages
+              <span><i class="fa-solid fa-pen-to-square"></i></span>
+            </div>
+
+            <div class="search-box">
+              <input type="text" placeholder="search" />
+            </div>
+
+            <div class="filters">
+              <button>all</button>
+              <button>illegible</button>
+              <button>Favorites</button>
+              <button>Groups</button>
+            </div>
+
+            <div class="chat-list">
+              <div class="chat-item">
+                <img
+                  src="images/c599d0793f067c5ef541a33dca699a8ea121cf3d.jpg"
+                  alt=""
+                />
+                <div class="meta">Samer Al-Khalidi</div>
+                <div class="time">12:12</div>
+              </div>
+              <div class="chat-item">
+                <img
+                  src="images/7c1ad5ca4ddaccb8236dd50cc98ad8328d1bc8f6.jpg"
+                  alt=""
+                />
+                <div class="meta">Karim Al-Asaad</div>
+                <div class="time">12:12</div>
+              </div>
+              <div class="chat-item">
+                <img
+                  src="images/077e97a32cf6176fec582c0d9c7ac0bb64c2cb05.jpg"
+                  alt=""
+                />
+                <div class="meta">Ahmed Al-Najjar</div>
+                <div class="time">12:12</div>
+              </div>
+              <div class="chat-item">
+                <img
+                  src="images/19962babfa2417fde08416121f8eaafb45bb1086.jpg"
+                  alt=""
+                />
+                <div class="meta">Laila Al-Hassan</div>
+                <div class="time">12:12</div>
+              </div>
+              <div class="chat-item">
+                <img
+                  src="images/89408d45c98aa8abe2dfd3a0b25696ec47cd7a5c.jpg"
+                  alt=""
+                />
+                <div class="meta">Nour Al-Abed</div>
+                <div class="time">12:12</div>
+              </div>
+              <div class="chat-item">
+                <img
+                  src="images/f37f452c381d450c9ab8469fa79f608cf9bc5996.jpg"
+                  alt=""
+                />
+                <div class="meta">Laila Al-Hassan</div>
+                <div class="time">12:12</div>
+              </div>
+            </div>
+          </section>
+
+          <!-- chat window -->
+          <main class="chat-window">
+            <div class="chat-messages" id="chatMessages"></div>
+
+            <div class="chat-input">
+              <i class="fa-regular fa-face-smile"></i>
+              <i class="fa-solid fa-paperclip"></i>
+              <input
+                type="text"
+                id="messageInput"
+                placeholder="write a letter"
+              />
+            </div>
+          </main>
+        </div>
+      </section>
+
+      <footer class="ph">
+        <div class="ph1">
+          <img src="images/Rectangle 138.png" alt="" />
+        </div>
+      </footer>
+    </div>
+
+    <script src="js/main.js"></script>
+    <script src="js/messages.js"></script>
+  </body>
+</html>
